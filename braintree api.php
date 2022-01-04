@@ -1,6 +1,6 @@
 <?php 
 
-//////////////////////[Raw Api for Braintree payment gateway  Edited by #Reboot13]///////////////
+//////////////////////[Raw Api for Braintree payment gateway  Edited by #skylar69]///////////////
 require 'function.php';
 
 error_reporting(0);
@@ -239,28 +239,28 @@ $msg = trim(strip_tags(getStr2($response,'"message":"','"')));
 ///////////////////////////////////////////////////=========[Responses]
 
 if (strpos($msg, '1000')) {
-  echo '<span class="text-dark">'.$cc.'|'.$mes.'|'.$ano.'|'.$cvv.'</span> <span class="text-info"> [BRAINTREE CVV_𝕽𝖊𝖇𝖔𝖔𝖙 ♛ ] </span> </span>  <span class="text-succes">#Approved</span></span> <span class="text-success">   '.$msg.' </span></br>';
+  echo '<span class="text-dark">'.$cc.'|'.$mes.'|'.$ano.'|'.$cvv.'</span> <span class="text-info"> [BRAINTREE CVV_] </span> </span>  <span class="text-succes">#Approved</span></span> <span class="text-success">   '.$msg.' </span></br>';
 } 
 elseif (strpos($msg, 'Your payment could not be taken. Please try again or use a different payment method. Card Issuer Declined CVV')) {
-  echo '<span class="text-dark">'.$cc.'|'.$mes.'|'.$ano.'|'.$cvv.'</span> <span class="text-info"> [BRAINTREE CCN_𝕽𝖊𝖇𝖔𝖔𝖙 ♛ ] </span> </span>  <span class="text-succes">#Approved</span></span> <span class="text-success">   '.$msg.' </span></br>';
+  echo '<span class="text-dark">'.$cc.'|'.$mes.'|'.$ano.'|'.$cvv.'</span> <span class="text-info"> [BRAINTREE CCN_] </span> </span>  <span class="text-succes">#Approved</span></span> <span class="text-success">   '.$msg.' </span></br>';
 } 
 
 elseif(strpos($msg, 'Your payment could not be taken. Please try again or use a different payment method. Declined')) {
-  echo '<span class="text-dark">'.$cc.'|'.$mes.'|'.$ano.'|'.$cvv.'</span> <span class="text-info">[_𝕽𝖊𝖇𝖔𝖔𝖙 ♛ ]  </span> </span> <span class="text-succes">#Approved</span></span></br>';
+  echo '<span class="text-dark">'.$cc.'|'.$mes.'|'.$ano.'|'.$cvv.'</span> <span class="text-info">[]  </span> </span> <span class="text-succes">#Approved</span></span></br>';
 } 
 elseif(strpos($msg, 'Your payment could not be taken. Please try again or use a different payment method. Processor Declined')) {
   echo '<span class="text-dark">'.$cc.'|'.$mes.'|'.$ano.'|'.$cvv.'</span> <span class="text-info">[Processor Declined]  </span> <span class="text-danger">#Declined</span></span> </span> <span class="text-danger"> '.$msg.' </span></br>';
 } 
 elseif(strpos($msg, 'Your payment could not be taken. Please try again or use a different payment method. Declined')) {
-  echo '<span class="text-dark">'.$cc.'|'.$mes.'|'.$ano.'|'.$cvv.'</span> <span class="text-info">[_𝕽𝖊𝖇𝖔𝖔𝖙 ♛]  </span> <span class="text-danger">#Declined</span></span> </span> <span class="text-danger"> '.$msg.' </span></br>';
+  echo '<span class="text-dark">'.$cc.'|'.$mes.'|'.$ano.'|'.$cvv.'</span> <span class="text-info">[]  </span> <span class="text-danger">#Declined</span></span> </span> <span class="text-danger"> '.$msg.' </span></br>';
 }
 else {
-  echo '<span class="text-dark">'.$cc.'|'.$mes.'|'.$ano.'|'.$cvv.'</span> <span class="text-info">[BRAINTREE] [_𝕽𝖊𝖇𝖔𝖔𝖙 ♛ ]  </span> <span class="text-danger">#Declined</span></span> </span> <span class="text-danger"> '.$msg.' </span></br>';
+  echo '<span class="text-dark">'.$cc.'|'.$mes.'|'.$ano.'|'.$cvv.'</span> <span class="text-info">[BRAINTREE] []  </span> <span class="text-danger">#Declined</span></span> </span> <span class="text-danger"> '.$msg.' </span></br>';
 }
 curl_close($ch);
 
 ob_flush();
 
-///////////////////////////////////Edited and modified by Reboot13////////////////////////
+///////////////////////////////////Edited and modified by Skylar69////////////////////////
 
 ?>
