@@ -7,7 +7,8 @@ This scripts are only for educational purpose. If you use this script for other 
 
 REQUIRED INDEX
 
-RUN IT ON XAMPP
+HOST ON SERVER OR RUN IT ON XAMPP
+
 
 INCLUDES :- 
 PAYPAL
