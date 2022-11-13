@@ -1,8 +1,9 @@
 [![Hits](https://hits.sh/github.com/skylar69-wtf/CC-CHECKERS-API.svg?label=Visitors)](https://hits.sh/github.com/skylar69-wtf/CC-CHECKERS-API/)
 
 ## WARNING : 
+This checker does no make charges only authenticate the card.
 This scripts are only for educational purpose. If you use this script for other purposes except education we will not be responsible in such cases.
-
+:- Reboot
 ## SOME CHECKERS API
 
 REQUIRED INDEX
