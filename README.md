@@ -3,16 +3,16 @@
 ## WARNING : 
 This checker does no make charges only authenticate the card.<br>
 This scripts are only for educational purpose. If you use this script for other purposes except education we will not be responsible in such cases.<br>
-:- Reboot
+
 ## SOME CHECKERS API
 
 REQUIRED INDEX
 
-HOST ON SERVER OR RUN IT ON XAMPP
-
+HOST ON SERVER OR RUN IT ON XAMPP<br>
+:- Reboot
 
 INCLUDES :- 
-PAYPAL
-SQUAREUP
-STRIPE
-BRAINTREE
+PAYPAL<br>
+SQUAREUP<br>
+STRIPE<br>
+BRAINTREE<br>
